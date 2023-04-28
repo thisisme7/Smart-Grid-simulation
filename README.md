@@ -12,6 +12,6 @@ Utility.py is Python script that implements a Modbus TCP server to communicate w
 
 # False Data Injection detection
 
-# Denial of Service detection
+## Denial of Service detection
 
 Program tains itself on dataset using one-class SVM model based on packet frequency and then determines if the captured amount of packets exceeds the trained rate. IF yes, program raises alert but with some modification can take an action.Description is on my blog: https://techriot.net/index.php/2023/04/28/firewall-denial-of-service-ids/
